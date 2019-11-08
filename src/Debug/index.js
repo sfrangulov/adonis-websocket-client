@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
 */
 
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== 'production' && false) {
   const Debug = require('debug')
   Debug.enable('adonis:*')
   module.exports = Debug('adonis:websocket')
